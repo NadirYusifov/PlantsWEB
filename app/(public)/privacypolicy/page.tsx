@@ -11,7 +11,6 @@ export default function PrivacyPolicy() {
             <PrivacyPolicyCollect />
             <PrivacyPolicyInformation />
             <PrivacyPolicyData />
-            Ggf
         </>
     )
 }
