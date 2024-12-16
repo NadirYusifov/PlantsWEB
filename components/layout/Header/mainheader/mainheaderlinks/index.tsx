@@ -10,7 +10,7 @@ export default function MainHeaderLinks() {
                     <Link href={"#"}>Services</Link>
                     <Link href={"#"}>Project</Link>
                     <Link href={"#"}>Blog</Link>
-                    <Link href={"#"}>Contact</Link>
+                    <Link href={"/contact"}>Contact</Link>
                     <a><button className="bg-green-700 rounded-md px-[35px] py-[10px] text-[18px] text-white font-bold leading-6 ml-0 lg:ml-[101px] hover:bg-green-900 hover:transition hover:duration-200 duration-200 hover:ease-in-out ease-in-out">Call Us</button></a>
                 </nav>
             </div>

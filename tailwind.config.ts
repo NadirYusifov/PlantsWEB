@@ -22,6 +22,9 @@ const config: Config = {
         '2xl': '6rem',
       },
     },
+    backgroundImage: {
+      hero: "url('public/leave.png')"
+    }
   },
   plugins: [],
 };

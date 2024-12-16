@@ -3,6 +3,7 @@ import PrivacyPolicyCommitment from '@/components/pages/PrivacyPolicy/PrivacyPol
 import PrivacyPolicyConstent from '@/components/pages/PrivacyPolicy/PrivacyPolicyConsent'
 import PrivacyPolicyData from '@/components/pages/PrivacyPolicy/PrivacyPolicyData'
 import PrivacyPolicyHeader from '@/components/pages/PrivacyPolicy/PrivacyPolicyHeader'
+import PrivacyPolicyHero from '@/components/pages/PrivacyPolicy/PrivacyPolicyHero'
 import PrivacyPolicyInformation from '@/components/pages/PrivacyPolicy/PrivacyPolicyInformation'
 import PrivacyPolicySecurity from '@/components/pages/PrivacyPolicy/PrivacyPolicySecurity'
 import PrivacyPolicyTHS from '@/components/pages/PrivacyPolicy/PrivacyPolicyTHS'
@@ -10,6 +11,7 @@ import PrivacyPolicyTHS from '@/components/pages/PrivacyPolicy/PrivacyPolicyTHS'
 export default function PrivacyPolicy() {
     return (
         <>
+            <PrivacyPolicyHero />
             <PrivacyPolicyHeader />
             <PrivacyPolicyCollect />
             <PrivacyPolicyInformation />
