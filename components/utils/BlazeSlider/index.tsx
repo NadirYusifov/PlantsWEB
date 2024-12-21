@@ -8,11 +8,9 @@ export default function useBlazeSlider(config: BlazeConfig) {
     const elRef = useRef<HTMLDivElement | null>(null)
 
     useEffect(() => {
-        if ( elRef.current && !sliderRef.current) {
+        if (elRef.current && !sliderRef.current) {
             sliderRef.current = new BlazeSlider(elRef.current, config)
         }
-
-
     }, [])
 
     return elRef

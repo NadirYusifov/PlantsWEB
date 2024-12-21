@@ -54,10 +54,6 @@ export default function Patner() {
                     <div className="blaze-slider" ref={elRef}>
                         <div className="blaze-container">
                             <div className="blaze-track-container">
-                                {/* {image.map(img => {
-                            return( */}
-                                {loading ? <h1>Loading</h1> :
-
                                     <div className="blaze-track">
                                         <div className="grayscale hover:grayscale-0 hover:transtion-all place-items-center"><Image src={PartnerOne} alt="morris" /></div>
                                         <div className="grayscale hover:grayscale-0 hover:transtion-all place-items-center"><Image src={PartnerTwo} alt="forest ridge" /></div>
@@ -72,10 +68,6 @@ export default function Patner() {
                                         <div className="grayscale hover:grayscale-0 hover:transtion-all place-items-center"><Image src={PartnerTwo} alt="forest ridge" /></div>
                                         <div className="grayscale hover:grayscale-0 hover:transtion-all place-items-center"><Image src={PartnerThree} alt="acme garden center" /></div>
                                     </div>
-
-                                }
-                                {/* //     )
-                        // })} */}
                             </div>
                         </div>
                     </div>

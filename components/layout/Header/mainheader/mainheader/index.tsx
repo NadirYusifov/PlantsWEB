@@ -5,6 +5,8 @@ import Link from "next/link";
 import MainHeaderLinks from "../mainheaderlinks";
 import { TbMenuDeep } from "react-icons/tb";
 import { IoMdClose } from "react-icons/io";
+import WebLogo from "/app/public/WebLogo.png"
+import Image from "next/image";
 
 export default function MainHeaderDesktop() {
     const [open, setOpen] = useState(false);
@@ -16,7 +18,7 @@ export default function MainHeaderDesktop() {
                     <div className="flex justify-between items-center">
                         <div className="logo-image">
                             <Link href={"/"}>
-                                <h3>Logo</h3>
+                                <Image src={WebLogo} alt="web logo" width={100} height={100} quality={100} />
                             </Link>
                         </div>
                         <div className="hidden lg:block">
@@ -97,7 +99,7 @@ export default function MainHeaderDesktop() {
                         transform: translate(100px);
                     }
                 }
-
+                       
                 .opacityIn {
                     animation: fadeIn 0.5s ease-out;
                 }
@@ -105,7 +107,7 @@ export default function MainHeaderDesktop() {
                 .opacityOut {
                     animation: fadeOut 0.5s ease-in;
                 }
-                        
+
                 .fadeIn {
                     animation: fadeIn 0.8s ease-in-out;
                 }

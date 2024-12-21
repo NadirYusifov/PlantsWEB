@@ -1,4 +1,4 @@
-import Hero from "@/components/variants/hero";
+import Hero from "@/components/variants/Hero";
 
 export default function PrivacyPolicyHero() {
     return (

@@ -2,7 +2,7 @@
 
 import styled from "styled-components"
 import BgHero from "../../../app/public/leave.png"
-import { usePathname } from "next/navigation"
+// import { usePathname } from "next/navigation"
 
 const HeroVariants = styled.section`
     background-image: url(${BgHero.src});
@@ -30,7 +30,8 @@ const HeroVariants = styled.section`
 `
 
 export default function Hero({ title, descprtion }: any) {
-    const location = usePathname()
+    // const location = usePathname()
+
     return (
         <>
         <HeroVariants>
